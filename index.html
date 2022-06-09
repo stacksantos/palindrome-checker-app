@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/flex.css" />
+    <title>Palindrome Checker</title>
+  </head>
+  <body>
+    <section class="appContainer center">
+      <section class="appBody col align around">
+        <section class="appScreen center">
+          <h1 class="screenText">PALINDROME<br />CHECKER</h1>
+        </section>
+        <section class="appForm">
+          <input
+            type="text"
+            placeholder="Insert Palindrome"
+            id="input"
+            value=""
+          />
+
+          <div class="row even">
+            <button class="button" id="check">CHECK</button>
+            <button class="button" id="reset" onclick="window.location.reload()">RESET</button>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <script src="./js/app.js"></script>
+  </body>
+</html>

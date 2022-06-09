@@ -1,0 +1,78 @@
+/* -------------------------------------------------------------------------- */
+/*                             FLEX ALIGNMENT                                 */
+/* -------------------------------------------------------------------------- */
+
+.flex,
+.center,
+.align,
+.start,
+.end,
+.selfStart,
+.selfEnd,
+.justify,
+.around,
+.between,
+.base,
+.justStart,
+.justEnd,
+.col,
+.row,
+.wrap,
+.noWrap {
+  display: flex;
+}
+.flex {
+  display: flex;
+}
+.center {
+  justify-content: center;
+  align-items: center;
+}
+.align {
+  align-items: center;
+}
+.start {
+  align-items: flex-start;
+}
+.end {
+  align-items: flex-end;
+}
+.selfStart {
+  align-self: flex-start;
+}
+.selfEnd {
+  align-self: flex-end;
+}
+.justify {
+  justify-content: center;
+}
+.around {
+  justify-content: space-around;
+}
+.even {
+  justify-content: space-evenly;
+}
+.between {
+  justify-content: space-between;
+}
+.base {
+  justify-content: baseline;
+}
+.justStart {
+  justify-content: flex-start;
+}
+.justEnd {
+  justify-content: flex-end;
+}
+.col {
+  flex-direction: column;
+}
+.row {
+  flex-direction: row;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.noWrap {
+  flex-wrap: nowrap;
+}
