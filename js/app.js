@@ -71,15 +71,15 @@ if (!palindrome) {
   }, 16400);
 }
 
-submit.addEventListener("mouseup", () => {
+submit.addEventListener("onmouseup", () => {
   window.location.reload();
 });
 
 buttons.forEach(button => {
-  button.addEventListener("mousedown", () => {
+  button.addEventListener("onmousedown", () => {
     button.style.backgroundColor = "rgb(59, 0, 10)";
   });
-  button.addEventListener("mouseup", () => {
+  button.addEventListener("onmouseup", () => {
     button.style.backgroundColor = "";
   });
 });
