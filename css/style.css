@@ -9,13 +9,18 @@
   width: 100%;
   height: 100vh;
 }
-
 .appBody {
   width: 35rem;
   height: 45rem;
   background-color: rgba(191, 190, 185, 0.733);
   border-radius: 70px 70px 150px 70px;
   border: 4px solid rgb(202, 202, 202);
+}
+@media all and (max-width: 361px) {
+  .appBody {
+    width: 33rem;
+    height: 43rem;
+  }
 }
 .appScreen {
   height: 12rem;
