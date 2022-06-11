@@ -10,26 +10,25 @@
   </head>
   <body>
     <section class="appContainer center">
-      <section class="appBody col align around">
+      <section class="appBody col align even">
         <section class="appScreen center">
-          <h1 class="screenText">POCKET<br />PALINDROME</h1>
+          <output class="screenText"></output>
         </section>
-        <section class="appForm">
-          <form action="">
-            <input
-              type="text"
-              placeholder="Insert Palindrome"
-              id="palindrome"
-              value=""
-            />
-            <div class="row even">
-              <button class="button" id="submit">Press</button>
-            </div>
-          </form>
+        <section class="inputPalindrome">
+          <input
+            type="text"
+            placeholder="Input Palindrome"
+            id="palindrome"
+            value=""
+            autocomplete="off"
+            maxlength="12"
+          />
         </section>
+        <div class="row even">
+          <button class="button" id="submit">Press</button>
+        </div>
       </section>
     </section>
-    
 
     <script src="./js/app.js"></script>
   </body>
