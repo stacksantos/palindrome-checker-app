@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   font-size: 10px;
 }
 
@@ -13,15 +13,15 @@
 .appBody {
   width: 35rem;
   height: 45rem;
-  background-color: rgb(191, 190, 185);
-  border-radius: 30px 30px 80px 30px;
+  background-color: rgba(191, 190, 185, 0.733);
+  border-radius: 70px 70px 150px 70px;
   border: 4px solid rgb(202, 202, 202);
 }
 .appScreen {
   height: 12rem;
   width: 27rem;
   background-color: rgb(133, 158, 86);
-  border-radius: 10px;
+  border-radius: 30px;
   border: 3px solid rgb(53, 53, 53);
   color: rgb(85, 104, 46);
 }
@@ -30,17 +30,18 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: center;
 }
-#input {
+#palindrome {
   width: 20rem;
-  padding: 1rem;
+  padding: 1.5rem;
   border-radius: 10px;
-  margin-bottom: 4rem;
-  font-size: 1.2rem;
-  font-weight: 600;
+  margin-bottom: 6rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-align: center;
 }
 .button {
-  width: 8rem;
-  height: 8rem;
+  width: 10rem;
+  height: 10rem;
   border-radius: 50%;
   background-color: rgb(101, 2, 29);
   color: white;
@@ -51,6 +52,15 @@
   cursor: pointer;
 }
 .button:after {
-  background-color: rgb(49, 0, 14);
+  background-color: rgb(59, 0, 10);
 }
 
+/* -------------------------------------------------------------------------- */
+/*                           Background SECTION                               */
+/* -------------------------------------------------------------------------- */
+
+body {
+  background-image: url(https://media4.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e4760055hbzht1juqq91t2rpda2tqwilileodiyalwp&rid=giphy.gif&ct=g);
+  background-size: cover;
+  background-color: black;
+}
