@@ -31,7 +31,6 @@ function checkPalindrome() {
 function initialDisplay() {
   let palindrome = document.querySelector("input").value;
   let cancel = false;
-  let done = true;
 
   display.innerHTML = `${palindrome} is`;
 
@@ -48,29 +47,32 @@ function initialDisplay() {
     display.innerHTML = `${checkPalindrome().toString().toUpperCase()}!`;
   }, 3500);
   setTimeout(() => {
+    display.innerHTML = "(o^-^o)";
+  }, 4700);
+  setTimeout(() => {
     display.innerHTML = "...another?";
     document.querySelector("input").value = "";
-  }, 5200);
+  }, 6000);
 
   function endDisplay() {
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
-        display.innerHTML = "0_0";
+        display.innerHTML = "(o0-0o)";
       }
     }, 6700);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
-        display.innerHTML = "-_-";
+        display.innerHTML = "(o^-^o)";
       }
     }, 6800);
     setTimeout(() => {
@@ -78,10 +80,10 @@ function initialDisplay() {
         cancel = true;
       });
 
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
-        display.innerHTML = "0_0";
+        display.innerHTML = "(o0-0o)";
       }
     }, 6900);
     setTimeout(() => {
@@ -89,10 +91,10 @@ function initialDisplay() {
         cancel = true;
       });
 
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
-        display.innerHTML = "-_-";
+        display.innerHTML = "(o^-^o)";
       }
     }, 9600);
     setTimeout(() => {
@@ -100,10 +102,10 @@ function initialDisplay() {
         cancel = true;
       });
 
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
-        display.innerHTML = "0_0";
+        display.innerHTML = "(o0-0o)";
       }
     }, 9700);
     setTimeout(() => {
@@ -111,10 +113,10 @@ function initialDisplay() {
         cancel = true;
       });
 
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
-        display.innerHTML = "-_-";
+        display.innerHTML = "(o^-^o)";
       }
     }, 9800);
     setTimeout(() => {
@@ -122,10 +124,10 @@ function initialDisplay() {
         cancel = true;
       });
 
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
-        display.innerHTML = "0_0";
+        display.innerHTML = "(o0-0o)";
       }
     }, 9900);
     setTimeout(() => {
@@ -133,7 +135,7 @@ function initialDisplay() {
         cancel = true;
       });
 
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
         display.innerHTML = "Until next time then!";
@@ -144,10 +146,10 @@ function initialDisplay() {
         cancel = true;
       });
 
-      if ((cancel === true)) {
+      if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
-        display.innerHTML = "^-^";
+        display.innerHTML = "(o^-^o)";
       }
     }, 13300);
   }
