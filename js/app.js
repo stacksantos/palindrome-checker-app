@@ -64,7 +64,7 @@ function initialDisplay() {
       } else {
         display.innerHTML = "(o0-0o)";
       }
-    }, 6700);
+    }, 8500);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
@@ -74,84 +74,77 @@ function initialDisplay() {
       } else {
         display.innerHTML = "(o^-^o)";
       }
-    }, 6800);
+    }, 8600);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-
       if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
         display.innerHTML = "(o0-0o)";
       }
-    }, 6900);
+    }, 8700);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-
       if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
         display.innerHTML = "(o^-^o)";
       }
-    }, 9600);
+    }, 11600);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-
       if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
         display.innerHTML = "(o0-0o)";
       }
-    }, 9700);
+    }, 11700);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-
       if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
         display.innerHTML = "(o^-^o)";
       }
-    }, 9800);
+    }, 11800);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-
       if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
         display.innerHTML = "(o0-0o)";
       }
-    }, 9900);
+    }, 11900);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-
       if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
         display.innerHTML = "Until next time then!";
       }
-    }, 11000);
+    }, 13000);
     setTimeout(() => {
       input.addEventListener("focusin", () => {
         cancel = true;
       });
-
       if (cancel === true) {
         display.innerHTML = "What's next?";
       } else {
         display.innerHTML = "(o^-^o)";
       }
-    }, 13300);
+    }, 14300);
   }
 
   if (cancel === false) {
@@ -159,7 +152,6 @@ function initialDisplay() {
   }
 }
 
-// second text after continue
 
 // display results function
 function displayResult() {

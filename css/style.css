@@ -10,11 +10,14 @@
   height: 100vh;
 }
 .appBody {
-  width: 35rem;
-  height: 45rem;
-  background-color: rgb(253, 213, 89);
-  border-radius: 140px 140px 120px 120px;
-  border: 4px solid rgb(202, 202, 202);
+  width: 36rem;
+  height: 55rem;
+  background-color: rgb(233, 200, 93);
+  border-radius: 140px 50px 80px 80px;
+  border-left: 14px solid rgb(192, 156, 56);
+  border-bottom: 20px solid rgb(165, 137, 45);
+  border-right: 5px solid rgb(124, 103, 32);
+  border-top: 5px solid rgb(212, 171, 55);
 }
 @media all and (max-width: 361px) {
   .appBody {
@@ -22,13 +25,41 @@
     height: 43rem;
   }
 }
+.topRightHole {
+  width: 4rem;
+  height: 4rem;
+  border: 4px solid rgb(201, 152, 46);
+  border-radius: 50%;
+  background-image: url(https://media4.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e4760055hbzht1juqq91t2rpda2tqwilileodiyalwp&rid=giphy.gif&ct=g);
+  position: relative;
+  mask
+  top:10px;
+  right: -130px;
+}
+#definition {
+  position: absolute;
+  max-width: 30rem;
+  top: 65px;
+  text-align: center;
+  font-size: 1.4rem;
+  color: white;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgba(128, 128, 128, 0.267);
+  padding: 1rem;
+  border-radius: 20px;
+  border: 2px solid rgb(65, 64, 64);
+}
 .appScreen {
   height:16rem;
-  width: 27rem;
-  background-color: rgb(133, 158, 86);
-  border-radius: 80px 80px 40px 40px;
-  border: 3px solid rgb(53, 53, 53);
+  width: 30rem;
+  background-color: rgb(120, 145, 80);
+  border-radius: 50px 50px 20px 20px;
+  border-top: 10px solid rgb(153, 153, 153);
+  border-left: 3px solid rgb(117, 116, 116);
+  border-right: 3px solid rgb(117, 116, 116);
+  border-bottom: 7px solid rgb(80, 80, 80);
   color: rgb(85, 104, 46);
+  margin-top: 5rem;
 }
 .screenText {
   font-size: 3rem;
@@ -38,29 +69,44 @@
 }
 #palindrome {
   width: 20rem;
-  background-color: white;
-  padding: 1.5rem;
-  border-radius: 10px;
-  font-size: 1.4rem;
+  background-color: rgb(167, 167, 167);
+  padding: 1.3rem;
+  border-radius: 20px;
+  font-size: 1.7rem;
   font-weight: 700;
   text-align: center;
-  border-radius: 30px;
+  border-left: 4px solid black;
+  border-right: 5px solid grey;
+}
+.lowerArea h3{
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-shadow: 3px 1px 1px rgb(134, 134, 134);;
 }
 .button {
   width: 12rem;
-  height: 12rem;
-  border-radius: 50%;
+  height: 5rem;
+  border-radius: 30px;
   background-color: rgb(73, 6, 24);
   color: white;
   font-size: 1.7rem;
   font-weight: 600;
+  margin-bottom: 6rem;
+  margin-top: 3rem;
+  box-shadow: 1px 1px 5px black;
 }
 .button:hover {
   cursor: pointer;
 }
 .button:after {
   background-color: rgb(59, 0, 10);
+  box-shadow: 0;
 }
+
+
+
+
+
 
 /* -------------------------------------------------------------------------- */
 /*                           Background SECTION                               */
