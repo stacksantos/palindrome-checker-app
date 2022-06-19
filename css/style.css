@@ -19,7 +19,7 @@
   border-right: 5px solid rgb(124, 103, 32);
   border-top: 5px solid rgb(212, 171, 55);
   position: absolute;
-  bottom: 90px;
+  bottom: 5%;
 }
 @media all and (max-width: 360px) {
   .appBody {
