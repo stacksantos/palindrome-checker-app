@@ -10,23 +10,15 @@
   height: 100vh;
 }
 .appBody {
-  width: 36rem;
-  height: 55rem;
+  width: 33rem;
+  height: 45rem;
   background-color: rgb(233, 200, 93);
   border-radius: 140px 50px 80px 80px;
   border-left: 14px solid rgb(192, 156, 56);
   border-bottom: 20px solid rgb(165, 137, 45);
   border-right: 5px solid rgb(124, 103, 32);
   border-top: 5px solid rgb(212, 171, 55);
-  position: absolute;
-  bottom: 5%;
-}
-@media all and (max-width: 360px) {
-  .appBody {
-    width: 30rem;
-    height: 45rem;
-    bottom: 100px;
-  }
+  position: relative;
 }
 
 .topRightHole {
@@ -36,22 +28,14 @@
   border-radius: 50%;
   background-image: url(https://media4.giphy.com/media/UYBDCJjwOd9Re/giphy.gif?cid=ecf05e4760055hbzht1juqq91t2rpda2tqwilileodiyalwp&rid=giphy.gif&ct=g);
   position: relative;
-  top:10px;
-  right: -130px;
-}
-@media all and (max-width: 360px) {
-  .topRightHole {
-    top: 30px;
-    right: -100px;
-    min-width: 2.5rem;
-    min-height: 2.5rem;
-  }
+  top:-30px ;
+  right: -120px;
 }
 #definition {
-  position: absolute;
+  position: relative;
   min-width: 30rem;
   max-width: min-content;
-  top: -110px;
+  top: -60px;
   text-align: center;
   font-size: 1.4rem;
   color: white;
@@ -62,8 +46,8 @@
   border: 2px solid rgb(65, 64, 64);
 }
 .appScreen {
-  height:16rem;
-  width: 30rem;
+  min-height: 9rem;
+  width: 26rem;
   background-color: rgb(120, 145, 80);
   border-radius: 50px 50px 20px 20px;
   border-top: 10px solid rgb(153, 153, 153);
@@ -71,7 +55,7 @@
   border-right: 3px solid rgb(117, 116, 116);
   border-bottom: 7px solid rgb(80, 80, 80);
   color: rgb(85, 104, 46);
-  margin-top: 5rem;
+  margin-top: 1rem;
 }
 @media all and (max-width:360px) {
   .appScreen {
@@ -121,6 +105,9 @@
 .button:after {
   background-color: rgb(59, 0, 10);
   box-shadow: 0;
+}
+.builtBy {
+  transform: translateY(-23px);
 }
 .builtBy h4 {
    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
